@@ -36,11 +36,13 @@ for desc in tree.findall(".//{http://www.ans.gov.br/padroes/tiss/schemas}guiaMon
     
     #agora só reproduzir para todas as variáveis
 
+
+
+
+
+
 len(tipoRegistro)
 print(tipoRegistro)
-    
-    
-    
     
 #tentando transformar em tabela
 df = pd.DataFrame(data = {
@@ -49,4 +51,5 @@ df = pd.DataFrame(data = {
 })
 
 print(df)
+
 
